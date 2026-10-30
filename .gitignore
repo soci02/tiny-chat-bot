@@ -1,0 +1,23 @@
+# Build artifacts
+*.o
+*.obj
+*.exe
+*.out
+bot
+bot.exe
+
+# Model weights (large)
+*.bin
+
+# Logs
+*_log.txt
+chat_log.txt
+
+# Data (too large / private)
+corpus.txt
+dialogues.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
